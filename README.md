@@ -1,5 +1,5 @@
-## e-Fashion Store
-e-Fashion Store is a web site showcasing the different apparels for ladies and gentleman, developed using React, Redux and React Router
+## e-fashionstore
+e-fashionstore is a web site showcasing the different apparels for ladies and gentleman, developed using React, Redux and React Router
 
 ## Setup
 
