@@ -53,9 +53,10 @@ export function getItems(){
         dispatch(getItemsStarted());
         axios.get(GET_ITEMS_API_URL)
         .then((result)=>{
-            dispatch(getItemsSuccess(result.response.products));
+            console.log("Resuslt is:  "+ JSON.stringify(result))
+            dispatch(getItemsSuccess(result.data.response.products));
         })
-        .error((error)=>{
+        .catch((error)=>{
             dispatch(getItemsFailed(error));
         })
 
